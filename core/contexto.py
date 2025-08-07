@@ -1,3 +1,4 @@
+# core/contexto.py
 import re
 from datetime import datetime
 import json

@@ -1,3 +1,5 @@
+#main.py
+
 from core.neuronas import Neurona
 from core.procesamiento import crear_vocabulario, vectorizar_frases, clase_a_vector
 from data.respuestas import obtener_respuesta_por_clase

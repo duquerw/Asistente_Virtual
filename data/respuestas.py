@@ -1,3 +1,4 @@
+# data/respuestas.py
 import random
 
 respuestas_por_clase = {

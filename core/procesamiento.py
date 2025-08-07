@@ -1,3 +1,4 @@
+# core/procesamiento.py
 import re
 from collections import defaultdict
 
