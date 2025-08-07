@@ -1,0 +1,183 @@
+# data/datos.py
+datatabase = [
+    #############################################
+    # SALUDOS (aumentado con más variedad)
+    #############################################
+    ("Hola, ¿cómo estás?", "saludo"),
+    ("Buenos días", "saludo"),
+    ("Buenas tardes", "saludo"),
+    ("Buenas noches", "saludo"),
+    ("¿Qué tal?", "saludo"),
+    ("¡Ey! ¿Todo bien?", "saludo"),
+    ("¿Cómo te va?", "saludo"),
+    ("¿Qué hay de nuevo?", "saludo"),
+    ("Un placer verte", "saludo"),
+    ("¡Hola, humano!", "saludo"),
+    ("¿Cómo andas?", "saludo"),
+    ("Saludos cordiales", "saludo"),
+    ("¿Qué onda?", "saludo"),
+    ("¿Qué más?", "saludo"),
+    ("Mucho gusto", "saludo"),
+    ("¿Cómo va todo?", "saludo"),
+    ("¿Cómo has estado?", "saludo"),
+    ("¡Buen día!", "saludo"),
+    ("¿Qué cuentas?", "saludo"),
+    ("¡Hola de nuevo!", "saludo"),
+
+    #############################################
+    # PREGUNTAS (diversificadas)
+    #############################################
+    ("¿Qué hora es?", "pregunta"),
+    ("¿Tienes algún plan hoy?", "pregunta"),
+    ("¿Dónde estás?", "pregunta"),
+    ("¿Cuál es tu color favorito?", "pregunta"),
+    ("¿Sabes cocinar?", "pregunta"),
+    ("¿Te gusta la música?", "pregunta"),
+    ("¿Cuántos años tienes?", "pregunta"),
+    ("¿Puedo preguntarte algo?", "pregunta"),
+    ("¿Qué harás mañana?", "pregunta"),
+    ("¿Estás ocupado?", "pregunta"),
+    ("¿Cómo funciona esto?", "pregunta"),
+    ("¿Qué opinas de la IA?", "pregunta"),
+    ("¿Me puedes ayudar?", "pregunta"),
+    ("¿Qué significa esto?", "pregunta"),
+    ("¿Cuándo es tu cumpleaños?", "pregunta"),
+    ("¿Dónde vives?", "pregunta"),
+    ("¿Prefieres café o té?", "pregunta"),
+    ("¿Cómo se llama tu creador?", "pregunta"),
+    ("¿Qué puedes hacer?", "pregunta"),
+    ("¿Es tarde ahora?", "pregunta"),
+
+    #############################################
+    # RESPUESTAS (más variadas)
+    #############################################
+    ("Estoy bien, gracias.", "respuesta"),
+    ("No lo sé.", "respuesta"),
+    ("Claro que sí.", "respuesta"),
+    ("Estoy ocupado ahora.", "respuesta"),
+    ("Tal vez más tarde.", "respuesta"),
+    ("Sí, me parece bien.", "respuesta"),
+    ("No, no me gusta.", "respuesta"),
+    ("Creo que sí.", "respuesta"),
+    ("Me parece justo.", "respuesta"),
+    ("Eso no es cierto.", "respuesta"),
+    ("Por supuesto.", "respuesta"),
+    ("De ninguna manera.", "respuesta"),
+    ("Déjame pensarlo.", "respuesta"),
+    ("No estoy seguro.", "respuesta"),
+    ("Así es.", "respuesta"),
+    ("Correcto.", "respuesta"),
+    ("Estoy de acuerdo.", "respuesta"),
+    ("Quizás en otra ocasión.", "respuesta"),
+    ("Eso depende.", "respuesta"),
+    ("No tengo una opinión formada.", "respuesta"),
+
+    #############################################
+    # DESPEDIDAS (ampliado)
+    #############################################
+    ("Adiós", "despedida"),
+    ("Nos vemos luego", "despedida"),
+    ("Hasta pronto", "despedida"),
+    ("Cuídate mucho", "despedida"),
+    ("Hasta mañana", "despedida"),
+    ("Fue un gusto", "despedida"),
+    ("Chao", "despedida"),
+    ("Me tengo que ir", "despedida"),
+    ("Nos vemos en otra ocasión", "despedida"),
+    ("¡Bye!", "despedida"),
+    ("Hasta la próxima", "despedida"),
+    ("Que tengas buen día", "despedida"),
+    ("Fue un placer", "despedida"),
+    ("Hasta luego", "despedida"),
+    ("Terminemos aquí", "despedida"),
+    ("Ya me voy", "despedida"),
+    ("Hasta la vista", "despedida"),
+    ("Que descanses", "despedida"),
+    ("Nos hablamos después", "despedida"),
+    ("Hasta nunca", "despedida"),
+
+    #############################################
+    # AFICIONES (nuevas categorías)
+    #############################################
+    ("Me gusta programar en Python.", "afición"),
+    ("Amo tocar guitarra.", "afición"),
+    ("Disfruto jugar videojuegos.", "afición"),
+    ("Me encanta dibujar.", "afición"),
+    ("Estoy aprendiendo a bailar.", "afición"),
+    ("Me relaja leer libros.", "afición"),
+    ("Veo anime todos los días.", "afición"),
+    ("Juego fútbol los fines de semana.", "afición"),
+    ("Colecciono figuras de acción.", "afición"),
+    ("Pinto con acuarelas.", "afición"),
+    ("Hago ejercicio por las mañanas.", "afición"),
+    ("Me fascina la fotografía.", "afición"),
+    ("Cocino postres los domingos.", "afición"),
+    ("Practico meditación.", "afición"),
+    ("Toco el piano desde niño.", "afición"),
+    ("Me gusta escalar montañas.", "afición"),
+    ("Colecciono monedas antiguas.", "afición"),
+    ("Hago manualidades con madera.", "afición"),
+    ("Leo poesía clásica.", "afición"),
+    ("Juego ajedrez competitivo.", "afición"),
+
+    #############################################
+    # EMOCIONES (nueva categoría)
+    #############################################
+    ("Estoy muy feliz hoy", "emoción"),
+    ("Me siento triste", "emoción"),
+    ("Qué enojo me da esto", "emoción"),
+    ("Estoy emocionado", "emoción"),
+    ("Tengo miedo", "emoción"),
+    ("Me siento ansioso", "emoción"),
+    ("Qué sorpresa tan agradable", "emoción"),
+    ("Estoy decepcionado", "emoción"),
+    ("Me siento agradecido", "emoción"),
+    ("Estoy aburrido", "emoción"),
+    ("Qué vergüenza pasé", "emoción"),
+    ("Me siento orgulloso", "emoción"),
+    ("Estoy confundido", "emoción"),
+    ("Tengo nostalgia", "emoción"),
+    ("Me siento relajado", "emoción"),
+    ("Estoy celoso", "emoción"),
+    ("Qué asco me da", "emoción"),
+    ("Me siento optimista", "emoción"),
+    ("Estoy deprimido", "emoción"),
+    ("Siento curiosidad", "emoción"),
+
+    #############################################
+    # COMANDOS (nueva categoría)
+    #############################################
+    ("Apaga el sistema", "comando"),
+    ("Reinicia ahora", "comando"),
+    ("Abre el navegador", "comando"),
+    ("Busca en internet", "comando"),
+    ("Guarda este archivo", "comando"),
+    ("Enciende la luz", "comando"),
+    ("Silencia las notificaciones", "comando"),
+    ("Haz una copia de seguridad", "comando"),
+    ("Aumenta el volumen", "comando"),
+    ("Muestra el historial", "comando"),
+    ("Configura el sistema", "comando"),
+    ("Actualiza el software", "comando"),
+    ("Ejecuta el programa", "comando"),
+    ("Cancela la operación", "comando"),
+    ("Muestra ayuda", "comando"),
+    ("Envíale un mensaje a Juan", "comando"),
+    ("Programa una alarma", "comando"),
+    ("Conéctate al servidor", "comando"),
+    ("Desactiva el modo avión", "comando"),
+    ("Haz una búsqueda", "comando")
+]
+
+clases = [
+    "saludo",
+    "pregunta",
+    "respuesta",
+    "despedida",
+    "afición",
+    "emoción",
+    "comando",
+    "clima",
+    "pronóstico del tiempo",
+    "reflexión"
+]
